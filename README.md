@@ -33,24 +33,34 @@ npm install
 
 ### JavaScript Fundamentals
 
-Located in `JSFundamentals/lessons/`, this module covers core JavaScript concepts.
+Located in `JSFundamentals/`, this module is organized into progressive lessons covering core JavaScript concepts.
 
 #### Running JavaScript Examples
 
-Navigate to the lessons directory:
+Navigate to the specific lesson directory:
 ```bash
-cd JSFundamentals/lessons
-```
-
-Run individual lesson files:
-```bash
+cd JSFundamentals/Lesson1
 node helloWorld.js
-node variables.js
 ```
 
 #### Available Lessons
+
+**Lesson 1 - Basics**
 - **helloWorld.js** - Introduction to console output
 - **variables.js** - Variable declaration and scope (var, let)
+- **constants.js** - Working with constants
+- **dataTypes.js** - JavaScript data types
+
+**Lesson 2 - Strings**
+- **concatenation.js** - String concatenation
+- **interpolation.js** - String interpolation and template literals
+
+**Lesson 3 - Data Structures**
+- **arrays.js** - Working with arrays
+- **objects.js** - Object creation and manipulation
+
+**Lesson 4 - Operators**
+- **operators.js** - Relational and comparison operators (==, ===, !=, !==, >, <, >=, <=, ternary operator)
 
 ### Playwright Practice Application
 
@@ -75,9 +85,19 @@ Access the application at: `http://localhost:4200/`
 ```
 Playwright-TS-JS/
 ├── JSFundamentals/
-│   └── lessons/
-│       ├── helloWorld.js
-│       └── variables.js
+│   ├── Lesson1/
+│   │   ├── helloWorld.js
+│   │   ├── variables.js
+│   │   ├── constants.js
+│   │   └── dataTypes.js
+│   ├── Lesson2/
+│   │   ├── concatenation.js
+│   │   └── interpolation.js
+│   ├── Lesson3/
+│   │   ├── arrays.js
+│   │   └── objects.js
+│   └── Lesson4/
+│       └── operators.js
 ├── package.json
 ├── Setup
 └── README.md
