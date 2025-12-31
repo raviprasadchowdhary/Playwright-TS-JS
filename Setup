@@ -1,0 +1,45 @@
+# Playwright Practice Application Setup
+
+## Prerequisites
+- Node.js installed (LTS version recommended)
+- Git installed
+- Visual Studio Code installed
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/bondar-artem/pw-practice-app.git
+```
+
+### 2. Open in Visual Studio Code
+- Navigate to the cloned directory
+- Open the project folder in VSCode
+
+### 3. Install Dependencies
+Open the integrated terminal in VSCode and run:
+```bash
+npm install --force
+```
+**Note:** The `--force` flag is used to resolve any dependency conflicts.
+
+### 4. Build and Start the Application
+```bash
+npm start
+```
+
+### 5. Access the Application
+Once the build is complete, you can access the application locally at:
+```
+http://localhost:4200/
+```
+
+## Important Notes
+- **Keep Terminal Running:** The terminal must remain active for the application to be available. If you close the terminal or press `CTRL+C`, the application will stop.
+- **Restarting the Application:** If you need to restart, simply run `npm start` again in the terminal.
+
+
+## Troubleshooting
+- If you encounter installation errors, try deleting `node_modules` folder and `package-lock.json`, then run `npm install --force` again
+- Ensure port 4200 is not being used by another application
+- Check that Node.js is properly installed by running `node --version` in terminal
