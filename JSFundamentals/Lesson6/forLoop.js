@@ -22,3 +22,9 @@ console.log(`Example 3: Print numbers from 5 to 1`)
 for (let i=5; i>=1; i--){
     console.log(i)
 }
+
+console.log(`Example 4: iterate through an array and print each element`)
+let fruits = ['apple', 'banana', 'cherry', 'date']
+for (let fruit of fruits){
+    console.log(fruit)
+}
