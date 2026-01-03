@@ -15,5 +15,6 @@
     "url": "https://github.com/raviprasadchowdhary/Playwright-TS-JS/issues"
   },
   "homepage": "https://github.com/raviprasadchowdhary/Playwright-TS-JS#readme",
-  "description": ""
+  "description": "",
+  "type": "module"
 }
