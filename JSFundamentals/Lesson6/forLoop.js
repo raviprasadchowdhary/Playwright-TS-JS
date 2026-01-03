@@ -25,6 +25,18 @@ for (let i=5; i>=1; i--){
 
 console.log(`Example 4: iterate through an array and print each element`)
 let fruits = ['apple', 'banana', 'cherry', 'date']
+
+console.log(`Using traditional for loop`)
+for (let i=0; i<fruits.length; i++){
+    console.log(fruits[i])
+}
+
+console.log(`Using for...of loop`)
 for (let fruit of fruits){
     console.log(fruit)
 }
+
+console.log(`Using ES6 for...of loop with arrow function`)
+fruits.forEach(fruit => {
+    console.log(fruit)
+})
